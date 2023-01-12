@@ -4,7 +4,7 @@ import Filtro from "../Filtro";
 import style from "./ListaDeEventos.module.scss";
 import useListaDeEventos from "../../state/hooks/useListaDeEventos";
 
-const ListaDeEventos: React.FC= () => {
+const ListaDeEventos: React.FC = () => {
   const eventos = useListaDeEventos();
 
   return (
