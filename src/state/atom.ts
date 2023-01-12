@@ -23,6 +23,6 @@ export const listaDeEventosState = atom<IEvento[]>({
 });
 
 export const filtroDeEventos = atom<IFiltroDeEventos>({
-  key: 'filtroDeEventos',
-  default: {}
-})
+  key: "filtroDeEventos",
+  default: {},
+});
